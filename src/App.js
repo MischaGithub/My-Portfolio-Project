@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+
 import Main from "./components/pages/main";
+
 import { Link } from "react-router-dom";
 import "./App.css";
 
@@ -23,6 +25,7 @@ class App extends Component {
         >
           <Header className="header-color" title="My Portfolio" scroll>
             <Navigation>
+              <Link to="/homepage">Home</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/testimonals">Testimonals</Link>
               <Link to="/about">About</Link>
@@ -31,6 +34,7 @@ class App extends Component {
           </Header>
           <Drawer title="Mischa Achmat">
             <Navigation>
+              <Link to="/homepage">Home</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/testimonals">Testimonals</Link>
               <Link to="/about">About</Link>

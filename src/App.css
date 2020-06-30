@@ -35,10 +35,32 @@
   padding-top: 5em;
 }
 
-.App {
-  background-image: url("http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
+.txt[contenteditable] {
+  outline: none;
+}
+
+/* text ------------------------------------------------------ */
+
+#text {
+  font-size: 6em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #444;
+  transition: (text-shadow 0.3s, color 0.3s);
+  text-align: center;
+  display: block;
+  margin-top: 10%;
+}
+#text:hover {
+  color: transparent;
+
+  transition: (text-shadow 0.2s, color 0.2s);
+  color: #111;
+  text-shadow: #eee 1px 1px, #eee 2px 2px, #eee 3px 3px, #eee 4px 4px,
+    #eee 5px 5px, #eee 6px 6px, #eee 7px 7px, #eee 8px 8px, #eee 9px 9px,
+    #eee 10px 10px;
+}
+
+#text:focus {
+  outline: none;
 }
