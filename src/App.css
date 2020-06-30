@@ -1,4 +1,4 @@
-.header-color {
+.nav-color {
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -31,8 +31,8 @@
 }
 
 .avatar-img {
-  height: 500px;
-  padding-top: 5em;
+  height: 400px;
+  border-radius: 50%;
 }
 
 .txt[contenteditable] {
@@ -41,11 +41,11 @@
 
 /* text ------------------------------------------------------ */
 
-#text {
-  font-size: 6em;
+#text p {
+  font-size: 4em;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #444;
+  letter-spacing: 0.09em;
+  color: #111;
   transition: (text-shadow 0.3s, color 0.3s);
   text-align: center;
   display: block;
@@ -63,4 +63,24 @@
 
 #text:focus {
   outline: none;
+}
+
+.banner-text h1 {
+  font-size: "66px";
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: #111;
+  font-size: 5em;
+  padding: 8px;
 }

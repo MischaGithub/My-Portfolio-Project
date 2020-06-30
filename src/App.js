@@ -23,7 +23,7 @@ class App extends Component {
               "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover",
           }}
         >
-          <Header className="header-color" title="My Portfolio" scroll>
+          <Header className="nav-color" title="My Portfolio" scroll>
             <Navigation>
               <Link to="/homepage">Home</Link>
               <Link to="/projects">Projects</Link>
@@ -33,7 +33,7 @@ class App extends Component {
             </Navigation>
           </Header>
           <Drawer title="Mischa Achmat">
-            <Navigation>
+            <Navigation className="nav-color">
               <Link to="/homepage">Home</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/testimonals">Testimonals</Link>
