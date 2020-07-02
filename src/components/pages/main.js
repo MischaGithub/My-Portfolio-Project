@@ -8,6 +8,7 @@ import Aboutme from "../pages/about";
 import ContactMe from "../pages/contact";
 
 const Main = () => (
+  // Route to navigate between pages
   <Switch>
     <Route exact path="/homepage" component={Home} />
     <Route path="/projects" component={Projects} />

@@ -34,8 +34,20 @@
   display: flex;
 }
 
+.portfolio-image {
+  display: flex;
+  letter-spacing: 0.09em;
+}
+
+.p {
+  font-size: 20px;
+  font-weight: "bold";
+  text-transform: uppercase;
+  color: #111;
+}
 .avatar-img {
-  height: 400px;
+  margin-top: 3em;
+  height: 350px;
   border-radius: 50%;
 }
 
