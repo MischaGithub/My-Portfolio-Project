@@ -1,18 +1,14 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-class LandingPage extends Component {
+class Homepage extends Component {
   render() {
     return (
       <Grid>
         <Cell col={12}>
-          <img
-            src="https://guillaumebreux.com/avatar.png"
-            alt="avatar"
-            className="avatar-img"
-          />
           <div id="text" contenteditable spellcheck="false">
-            <p>Full Stack Developer</p>
+            <p>Hi, I am Mischa Achmat</p>
+            <p> Junior Full Stack Developer</p>
 
             <p> JavaScript | React | Python | MySQL </p>
 
@@ -20,7 +16,7 @@ class LandingPage extends Component {
             <div className="social-links">
               {/* LinkedId */}
               <a
-                href="http://google.com"
+                href="https://www.linkedin.com/in/mischa-achmat-8230361a8/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -28,7 +24,7 @@ class LandingPage extends Component {
               </a>
               {/* Github */}
               <a
-                href="http://google.com"
+                href="https://github.com/mischaGithub/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -36,7 +32,7 @@ class LandingPage extends Component {
               </a>
               {/* Codepen*/}
               <a
-                href="http://google.com"
+                href="https://codepen.io/Mischa120212"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -50,4 +46,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default Homepage;
