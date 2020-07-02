@@ -6,10 +6,7 @@ import {
   Cell,
   Card,
   CardTitle,
-  Button,
   CardText,
-  CardMenu,
-  IconButton,
   CardActions,
 } from "react-mdl";
 
@@ -25,11 +22,11 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Card 1 React Project #1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450px", margin: "2em" }}>
             <CardTitle
               style={{
                 color: "#000",
-                height: "176px",
+                height: "300px",
                 background:
                   "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRea4KeNRJVhvy_AQc8xDfHzIOVEeMWg277YA&usqp=CAU) center / cover",
               }}
@@ -63,13 +60,13 @@ class Projects extends Component {
           </Card>
 
           {/* Card 2 React Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450px", margin: "2em" }}>
             <CardTitle
               style={{
                 color: "#000",
-                height: "176px",
+                height: "300px",
                 background:
-                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRea4KeNRJVhvy_AQc8xDfHzIOVEeMWg277YA&usqp=CAU) center / cover",
+                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS34dLTVlGZvqMIup-bt9_tqgAlMUCj5340ag&usqp=CAU) center / cover",
               }}
             >
               React Project #2
@@ -79,9 +76,9 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <div className="social-links">
-                {/* LinkedId */}
+                {/* Live Demo */}
                 <a
-                  href="https://mischa-github-finder.netlify.app/"
+                  href="https://morning-shelf-16921.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -89,7 +86,7 @@ class Projects extends Component {
                 </a>
                 {/* Github */}
                 <a
-                  href="https://github.com/mischaGithub/Github-Finder-Project"
+                  href="https://github.com/MischaGithub/ContactKeeper-React-Project-2"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
