@@ -4,40 +4,25 @@ import { Grid, Cell } from "react-mdl";
 class About extends Component {
   render() {
     return (
-      <Grid>
-        <Cell col={12}>
-          <div id="text-p" contenteditable spellcheck="false">
-            <p>Hi, I am Mischa Achmat.</p>
-
-            <p> I am very passionate about technology.</p>
-
-            <p>
-              {" "}
-              My dream is to become a Major Tech Gaint leading technology from
-              the front font.
+      <div className="about-body">
+        <Grid className="about-grid">
+          <Cell col={6}>
+            <h2>Mischa Achmat</h2>
+            <img
+              src="https://cdn4.vectorstock.com/i/thumb-large/18/83/web-developer-design-vector-5881883.jpg"
+              alt="avatar"
+              style={{ height: "320px" }}
+            />
+          </Cell>
+          <Cell col={6}>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              I strive to do the best at everything I do. Life has given me many
+              trials and I've always learnt how strong and optimistic, I needed
+              to be in order to grow and evolve.
             </p>
-
-            <p>
-              {" "}
-              I am excited each and everyday to learn something new and you can
-              hardly get me away from my laptop.
-            </p>
-
-            <p>
-              Read More{" "}
-              <a
-                href="https://drive.google.com/drive/folders/14REP-wA8f1k1QC_qlOAzleqPu9zwVTnl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Here
-              </a>
-            </p>
-
-            <br />
-          </div>
-        </Cell>
-      </Grid>
+          </Cell>
+        </Grid>
+      </div>
     );
   }
 }
