@@ -1,10 +1,76 @@
 import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <h1>Let's Talk</h1>
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={10}>
+            <form action="https://formspree.io/xgennooe" method="POST">
+              {/* Full Name */}
+              <div className="form-group">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="full-name" style={{ fontSize: "1.5em" }}>
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control form-control-lg"
+                      id="name"
+                      placeholder="Full Name..."
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="form-group">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="email" style={{ fontSize: "1.5em" }}>
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="_replyto"
+                      className="form-control form-control-lg"
+                      id="exampleFormControlInput1"
+                      placeholder="Email..."
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Message */}
+              <div className="form-group hiddenRight">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="email" style={{ fontSize: "1.5em" }}>
+                      Message
+                    </label>
+                    <textarea
+                      name="message"
+                      className="form-control form-control-lg"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      placeholder="Write your message..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row text-md-right text-sm-center">
+                <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                  <button type="submit" className="btn btn-primary mb-2">
+                    Send
+                  </button>
+                </div>
+              </div>
+            </form>
+          </Cell>
+        </Grid>
       </div>
     );
   }
