@@ -21,20 +21,20 @@ class App extends Component {
         <Layout className="layout-background">
           <Header transparent title="My Portfolio" scroll>
             <Navigation>
-              <Link to="/homepage">Home</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/testimonals">Testimonals</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/My-Portfolio-Project">Home</Link>
+              <Link to="/My-Portfolio-Project/projects">Projects</Link>
+              <Link to="/My-Portfolio-Project/testimonals">Testimonals</Link>
+              <Link to="/My-Portfolio-Project/about">About</Link>
+              <Link to="/My-Portfolio-Project/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer title="Mischa Achmat">
             <Navigation>
-              <Link to="/homepage">Home</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/testimonals">Testimonals</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/My-Portfolio-Project">Home</Link>
+              <Link to="/My-Portfolio-Project/projects">Projects</Link>
+              <Link to="/My-Portfolio-Project/testimonals">Testimonals</Link>
+              <Link to="/My-Portfolio-Project/about">About</Link>
+              <Link to="/My-Portfolio-Project/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>

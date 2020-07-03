@@ -10,11 +10,11 @@ import ContactMe from "../pages/contact";
 const Main = () => (
   // Route to navigate between pages
   <Switch>
-    <Route exact path="/homepage" component={Home} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/testimonals" component={Testimonals} />
-    <Route path="/about" component={Aboutme} />
-    <Route path="/contact" component={ContactMe} />
+    <Route exact path="/My-Portfolio-Project" component={Home} />
+    <Route path="/My-Portfolio-Project/projects" component={Projects} />
+    <Route path="/My-Portfolio-Project/testimonals" component={Testimonals} />
+    <Route path="/My-Portfolio-Project/about" component={Aboutme} />
+    <Route path="/My-Portfolio-Project/contact" component={ContactMe} />
   </Switch>
 );
 
