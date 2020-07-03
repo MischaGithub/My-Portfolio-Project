@@ -29,7 +29,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRea4KeNRJVhvy_AQc8xDfHzIOVEeMWg277YA&usqp=CAU) center / cover",
+                  "url(https://iconsetc.com/icons-watermarks/flat-rounded-square-white-on-ios-pink-gradient/foundation/foundation_social-github/foundation_social-github_flat-rounded-square-white-on-ios-pink-gradient_512x512.png) center / cover",
               }}
             >
               React Project #1
@@ -39,7 +39,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <div className="social-links">
-                {/* LinkedId */}
+                {/* Live Demo */}
                 <a
                   href="https://mischa-github-finder.netlify.app/"
                   rel="noopener noreferrer"
@@ -55,7 +55,6 @@ class Projects extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-                {/* Codepen*/}
               </div>
             </CardActions>
           </Card>
@@ -67,7 +66,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS34dLTVlGZvqMIup-bt9_tqgAlMUCj5340ag&usqp=CAU) center / cover",
+                  "url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/201-512.png) center / cover",
               }}
             >
               React Project #2
@@ -104,7 +103,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://cdn3.iconfinder.com/data/icons/oil-gas-caramel-vol-1/512/MACHINE_AND_SERVICE_LOG-512.png) center / cover",
+                  "url(https://getdrawings.com/free-icon/red-gear-icon-57.png) center / cover",
               }}
             >
               React Project #3
@@ -146,7 +145,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://cdn3.vectorstock.com/i/1000x1000/64/42/bingo-lotto-win-lottery-lucky-numbers-icon-vector-13666442.jpg) center / cover",
+                  "url(https://i2.pngguru.com/preview/454/189/79/roulette-icon-wheel-icon-lotto-icon-pink-circle-png-clipart.jpg) center / cover",
               }}
             >
               Python Project #1
@@ -175,7 +174,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://www.clipartkey.com/mpngs/m/58-581744_time-attendance-system-png-hd-employee-self-service.png) center / cover",
+                  "url(https://i7.pngguru.com/preview/517/876/849/purple-symbol-brand-violet-time-machine.jpg) center / cover",
               }}
             >
               Python Project #2
