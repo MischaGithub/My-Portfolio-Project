@@ -50,6 +50,13 @@
   display: flex;
 }
 
+.testimonal-grid {
+  display: flex;
+  border-top: 1px solid #eee;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .about-body {
   margin: auto;
   background: transparent;
