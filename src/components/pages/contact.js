@@ -63,12 +63,7 @@ class Contact extends Component {
               </div>
               <div className="row text-md-right text-sm-center">
                 <div className="col-12 col-sm-12 col-md-6 mx-auto">
-                  <button
-                    type="submit"
-                    className="btn btn-primary mb-2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <button type="submit" className="btn btn-primary mb-2">
                     Send
                   </button>
                 </div>
