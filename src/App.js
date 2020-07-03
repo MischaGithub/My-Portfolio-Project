@@ -25,7 +25,7 @@ class App extends Component {
         >
           <Header transparent title="My Portfolio" scroll>
             <Navigation>
-              <Link to="/homepage">Introduction</Link>
+              <Link to="/homepage">Home</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/testimonals">Testimonals</Link>
               <Link to="/about">About</Link>
