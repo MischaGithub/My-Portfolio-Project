@@ -6,19 +6,24 @@ class About extends Component {
     return (
       <div className="about-body">
         <Grid className="about-grid">
-          <Cell col={6}>
+          <Cell col={8}>
             <h2>Mischa Achmat</h2>
             <img
-              src="https://cdn4.vectorstock.com/i/thumb-large/18/83/web-developer-design-vector-5881883.jpg"
+              src="https://s.itl.cat/pngfile/s/327-3275141_software-development.png"
               alt="avatar"
               style={{ height: "320px" }}
             />
-          </Cell>
-          <Cell col={6}>
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I strive to do the best at everything I do. Life has given me many
-              trials and I've always learnt how strong and optimistic, I needed
-              to be in order to grow and evolve.
+              trials and I've always learnt how be strong and optimistic, I
+              needed to be in order to grow and evolve. Read More{" "}
+              <a
+                href="https://drive.google.com/drive/folders/14REP-wA8f1k1QC_qlOAzleqPu9zwVTnl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Here
+              </a>
             </p>
           </Cell>
         </Grid>

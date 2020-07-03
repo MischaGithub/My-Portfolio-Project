@@ -4,6 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/pages/main";
 
 import { Link } from "react-router-dom";
+
 import "./App.css";
 
 class App extends Component {
@@ -17,12 +18,7 @@ class App extends Component {
           position: "center",
         }}
       >
-        <Layout
-          style={{
-            background:
-              "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover",
-          }}
-        >
+        <Layout className="layout-background">
           <Header transparent title="My Portfolio" scroll>
             <Navigation>
               <Link to="/homepage">Home</Link>
