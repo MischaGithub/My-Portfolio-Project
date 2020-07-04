@@ -66,7 +66,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://www.mini.com.ng/assets/uploads/mini/bdGP_contact_keeper2.png.png) center / cover",
+                  "url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/201-512.png) center / cover",
               }}
             >
               React Project #2
@@ -103,7 +103,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://cdn3.iconfinder.com/data/icons/oil-gas-caramel-vol-1/512/MACHINE_AND_SERVICE_LOG-512.png) center / cover",
+                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0Ljs-_14R0TpjjqmYj7Sqnnmu_Gi19z9K6w&usqp=CAU) center / cover",
               }}
             >
               React Project #3
@@ -145,7 +145,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://img.freepik.com/free-vector/neon-icon-lottery-drum_1262-15647.jpg?size=338&ext=jpg) center / cover",
+                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIRtTHoo3u9yOySxuq3_DMoSA0qeAOwEvUzA&usqp=CAU) center / cover",
               }}
             >
               Python Project #1
@@ -174,7 +174,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://www.clipartkey.com/mpngs/m/58-581744_time-attendance-system-png-hd-employee-self-service.png) center / cover",
+                  "url(https://i7.pngguru.com/preview/517/876/849/purple-symbol-brand-violet-time-machine.jpg) center / cover",
               }}
             >
               Python Project #2
