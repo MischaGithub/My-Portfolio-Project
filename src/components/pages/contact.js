@@ -2,29 +2,6 @@ import React, { Redirect } from "react";
 import { Grid, Cell } from "react-mdl";
 
 class Contact extends React.Component {
-  // Form state
-  constructor(props) {
-    super(props);
-    this.state = {
-      disable: false,
-      emailSent: null,
-      redirectToHome: false,
-    };
-  }
-
-  // Form submission and its events
-  handleSubmit = (event) => {
-    event.preventDefault();
-
-    this.setState({
-      disable: true,
-    });
-
-    const redirectToHome = this.state.redirectToHome;
-    if (redirectToHome === true) {
-      return <Redirect to="/My-Portfolio-Project" />;
-    }
-  };
   render() {
     return (
       <div className="contact-body">
@@ -33,11 +10,7 @@ class Contact extends React.Component {
         </h1>
         <Grid className="contact-grid">
           <Cell col={10}>
-            <form
-              action="https://formspree.io/xgennooe"
-              method="POST"
-              onSubmit={handleSubmit}
-            >
+            <form action="https://formspree.io/xgennooe" method="POST">
               {/* Full Name */}
               <div className="form-group">
                 <div className="row">
@@ -106,8 +79,6 @@ class Contact extends React.Component {
                   >
                     Send
                   </button>
-                  {this.state.emailSent === true && alert("Email sent")}
-                  {this.state.emailSent === false && alert("Email not sent")}
                 </div>
               </div>
             </form>
