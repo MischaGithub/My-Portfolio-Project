@@ -130,6 +130,20 @@
   height: 2em;
 }
 
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 /* text ------------------------------------------------------ */
 
 #text p {

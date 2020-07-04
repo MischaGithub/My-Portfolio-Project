@@ -1,7 +1,25 @@
-import React, { Component } from "react";
+import React from "react";
 import { Grid, Cell } from "react-mdl";
 
-class Contact extends Component {
+class Contact extends React.Component {
+  // Form state
+  constructor(props) {
+    super(props);
+    this.state = {
+      disable: false,
+      emailSent: null,
+    };
+  }
+
+  // Form submission and its events
+  handleSubmit = (event) => {
+    event.preventDefault();
+
+    this.setState({
+      disable: true,
+      emailSent: true,
+    });
+  };
   render() {
     return (
       <div className="contact-body">
@@ -10,7 +28,7 @@ class Contact extends Component {
         </h1>
         <Grid className="contact-grid">
           <Cell col={10}>
-            <form action="https://formspree.io/xgennooe" method="POST">
+            <form onSubmit={this.handleSubmit}>
               {/* Full Name */}
               <div className="form-group">
                 <div className="row">
@@ -64,15 +82,24 @@ class Contact extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row text-md-right text-sm-center">
+              <div className="row text-md-left text-sm-center">
                 <div className="col-12 col-sm-12 col-md-6 mx-auto">
                   <button
                     type="submit"
                     className="btn btn-primary mb-2"
-                    style={{ width: "10em", height: "3em" }}
+                    style={{
+                      width: "10em",
+                      height: "3em",
+                    }}
                   >
                     Send
                   </button>
+                  {this.state.emailSent === true && (
+                    <p className="d-inline success-msg">Email Sent</p>
+                  )}
+                  {this.state.emailSent === false && (
+                    <p className="d-inline err-msg">Email not send</p>
+                  )}
                 </div>
               </div>
             </form>

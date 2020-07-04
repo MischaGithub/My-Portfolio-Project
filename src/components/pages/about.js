@@ -7,13 +7,15 @@ class About extends Component {
     return (
       <div className="about-body">
         <Grid className="about-grid">
-          <Cell col={8}>
+          <Cell col={6}>
             <h2>Mischa Achmat</h2>
             <img
               src={Mischa}
               alt="avatar"
-              style={{ minWidth: "300px", height: "280px" }}
+              style={{ minWidth: "300px", height: "400px" }}
             />
+          </Cell>
+          <Cell col={6}>
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I strive to do the best at everything I do. Life has given me many
               trials and I've always learnt how be strong and optimistic, I
