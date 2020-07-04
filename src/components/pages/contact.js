@@ -19,12 +19,13 @@ class Contact extends React.Component {
     this.setState({
       disable: true,
     });
-  };
-  render() {
+
     const redirectToHome = this.state.redirectToHome;
     if (redirectToHome === true) {
       return <Redirect to="/My-Portfolio-Project" />;
     }
+  };
+  render() {
     return (
       <div className="contact-body">
         <h1 style={{ textAlign: "center", fontWeight: "bolder" }}>
@@ -32,7 +33,11 @@ class Contact extends React.Component {
         </h1>
         <Grid className="contact-grid">
           <Cell col={10}>
-            <form action="https://formspree.io/xgennooe" method="POST">
+            <form
+              action="https://formspree.io/xgennooe"
+              method="POST"
+              onSubmit={handleSubmit}
+            >
               {/* Full Name */}
               <div className="form-group">
                 <div className="row">
