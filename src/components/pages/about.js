@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
+import Mischa from "../assets/Mischa_about1.jpg";
 class About extends Component {
   render() {
     return (
@@ -9,9 +10,9 @@ class About extends Component {
           <Cell col={8}>
             <h2>Mischa Achmat</h2>
             <img
-              src="https://cdn4.iconfinder.com/data/icons/creative-process-16/512/Apps_Development-512.png"
+              src={Mischa}
               alt="avatar"
-              style={{ height: "320px" }}
+              style={{ minWidth: "300px", height: "280px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I strive to do the best at everything I do. Life has given me many

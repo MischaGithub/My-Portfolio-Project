@@ -29,7 +29,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://iconsetc.com/icons-watermarks/flat-rounded-square-white-on-ios-pink-gradient/foundation/foundation_social-github/foundation_social-github_flat-rounded-square-white-on-ios-pink-gradient_512x512.png) center / cover",
+                  "url(https://i.pinimg.com/originals/8f/da/4b/8fda4ba42cdc0ce3c6c85832bb076d02.jpg) center / cover",
               }}
             >
               React Project #1
@@ -66,7 +66,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/201-512.png) center / cover",
+                  "url(https://www.mini.com.ng/assets/uploads/mini/bdGP_contact_keeper2.png.png) center / cover",
               }}
             >
               React Project #2
@@ -103,7 +103,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://getdrawings.com/free-icon/red-gear-icon-57.png) center / cover",
+                  "url(https://cdn3.iconfinder.com/data/icons/oil-gas-caramel-vol-1/512/MACHINE_AND_SERVICE_LOG-512.png) center / cover",
               }}
             >
               React Project #3
@@ -145,7 +145,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://i2.pngguru.com/preview/454/189/79/roulette-icon-wheel-icon-lotto-icon-pink-circle-png-clipart.jpg) center / cover",
+                  "url(https://img.freepik.com/free-vector/neon-icon-lottery-drum_1262-15647.jpg?size=338&ext=jpg) center / cover",
               }}
             >
               Python Project #1
@@ -174,7 +174,7 @@ class Projects extends Component {
                 color: "#000",
                 height: "300px",
                 background:
-                  "url(https://i7.pngguru.com/preview/517/876/849/purple-symbol-brand-violet-time-machine.jpg) center / cover",
+                  "url(https://www.clipartkey.com/mpngs/m/58-581744_time-attendance-system-png-hd-employee-self-service.png) center / cover",
               }}
             >
               Python Project #2

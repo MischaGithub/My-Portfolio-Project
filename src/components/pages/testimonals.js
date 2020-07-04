@@ -14,7 +14,7 @@ class Testimonals extends Component {
               color: "#000",
               height: "380px",
               background:
-                "url(https://cdn.iconscout.com/icon/free/png-512/testimonial-1534060-1300141.png) center / cover",
+                "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
             Ariya Lucas
@@ -32,7 +32,7 @@ class Testimonals extends Component {
               fontWeight: "bold",
               height: "380px",
               background:
-                "url(https://cdn.iconscout.com/icon/free/png-512/testimonial-1534060-1300141.png) center / cover",
+                "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
             Aaqiel Behardien
@@ -49,7 +49,7 @@ class Testimonals extends Component {
               color: "#000",
               height: "380px",
               background:
-                "url(https://cdn.iconscout.com/icon/free/png-512/testimonial-1534060-1300141.png) center / cover",
+                "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
             Hishaam De Vries
@@ -66,7 +66,7 @@ class Testimonals extends Component {
               color: "#000",
               height: "380px",
               background:
-                "url(https://cdn.iconscout.com/icon/free/png-512/testimonial-1534060-1300141.png) center / cover",
+                "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
             Damon Anthony
@@ -83,7 +83,7 @@ class Testimonals extends Component {
               color: "#000",
               height: "380px",
               background:
-                "url(https://cdn.iconscout.com/icon/free/png-512/testimonial-1534060-1300141.png) center / cover",
+                "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
             Viata Fredricks

@@ -22,7 +22,7 @@ class Homepage extends Component {
                 <p className="p">I am a Junior FullStack Developer.</p>
                 <p
                   className="p"
-                  style={{ color: "green", fontWeight: "bolder" }}
+                  style={{ color: "purple", fontWeight: "bolder" }}
                 >
                   My Motto is "Consider every setback as another opportunity to
                   do better."

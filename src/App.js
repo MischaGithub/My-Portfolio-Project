@@ -18,7 +18,12 @@ class App extends Component {
           position: "center",
         }}
       >
-        <Layout className="layout-background">
+        <Layout
+          style={{
+            background:
+              "url(https://i.ytimg.com/vi/j22DmsZEv30/maxresdefault.jpg) center / cover",
+          }}
+        >
           <Header transparent title="My Portfolio" scroll>
             <Navigation>
               <Link to="/My-Portfolio-Project">Home</Link>
