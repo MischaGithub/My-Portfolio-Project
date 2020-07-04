@@ -11,7 +11,7 @@ import {
 } from "react-mdl";
 
 class Projects extends Component {
-  constructor(props, state) {
+  constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
   }

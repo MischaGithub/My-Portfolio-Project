@@ -5,6 +5,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-body">
+        <h1 style={{ textAlign: "center", fontWeight: "bolder" }}>
+          Let's Talk{" "}
+        </h1>
         <Grid className="contact-grid">
           <Cell col={10}>
             <form action="https://formspree.io/xgennooe" method="POST">
@@ -63,7 +66,11 @@ class Contact extends Component {
               </div>
               <div className="row text-md-right text-sm-center">
                 <div className="col-12 col-sm-12 col-md-6 mx-auto">
-                  <button type="submit" className="btn btn-primary mb-2">
+                  <button
+                    type="submit"
+                    className="btn btn-primary mb-2"
+                    style={{ width: "10em", height: "3em" }}
+                  >
                     Send
                   </button>
                 </div>
