@@ -13,18 +13,14 @@ class App extends Component {
       <div
         style={{
           height: "100vh",
-          background: "cover",
           attachment: "fixed",
-          position: "center",
+
+          background:
+            "url(https://i.pinimg.com/originals/69/20/fa/6920fa5022612948f51c7d9f12ef6f3c.jpg) center / cover",
         }}
       >
-        <Layout
-          style={{
-            background:
-              "url(https://i.ytimg.com/vi/j22DmsZEv30/maxresdefault.jpg) center / cover",
-          }}
-        >
-          <Header transparent title="My Portfolio" scroll>
+        <Layout>
+          <Header className="nav-color" title="My Portfolio" scroll>
             <Navigation>
               <Link to="/My-Portfolio-Project">Home</Link>
               <Link to="/My-Portfolio-Project/projects">Projects</Link>

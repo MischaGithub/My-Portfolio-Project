@@ -42,6 +42,7 @@ class Contact extends React.Component {
                       className="form-control form-control-lg"
                       id="name"
                       placeholder="Full Name..."
+                      required
                     />
                   </div>
                 </div>
@@ -60,6 +61,7 @@ class Contact extends React.Component {
                       className="form-control form-control-lg"
                       id="exampleFormControlInput1"
                       placeholder="Email..."
+                      required
                     />
                   </div>
                 </div>
@@ -78,6 +80,7 @@ class Contact extends React.Component {
                       id="exampleFormControlTextarea1"
                       rows="3"
                       placeholder="Write your message..."
+                      required
                     />
                   </div>
                 </div>
