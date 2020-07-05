@@ -119,8 +119,10 @@
 }
 
 .send-button {
-  width: 20em;
-  height: 2em;
+  width: 10em;
+  height: 3em;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .success-msg {
