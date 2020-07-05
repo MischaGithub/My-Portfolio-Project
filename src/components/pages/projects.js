@@ -27,7 +27,7 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "300px",
+                height: "420px",
                 background:
                   "url(https://i.pinimg.com/originals/8f/da/4b/8fda4ba42cdc0ce3c6c85832bb076d02.jpg) center / cover",
               }}
@@ -64,7 +64,7 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "300px",
+                height: "420px",
                 background:
                   "url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/201-512.png) center / cover",
               }}
@@ -101,7 +101,7 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "300px",
+                height: "420px",
                 background:
                   "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0Ljs-_14R0TpjjqmYj7Sqnnmu_Gi19z9K6w&usqp=CAU) center / cover",
               }}
@@ -143,7 +143,7 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "300px",
+                height: "420px",
                 background:
                   "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIRtTHoo3u9yOySxuq3_DMoSA0qeAOwEvUzA&usqp=CAU) center / cover",
               }}
@@ -172,7 +172,7 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "300px",
+                height: "420px",
                 background:
                   "url(https://i7.pngguru.com/preview/517/876/849/purple-symbol-brand-violet-time-machine.jpg) center / cover",
               }}

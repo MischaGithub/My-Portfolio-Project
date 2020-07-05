@@ -14,7 +14,6 @@ class App extends Component {
         style={{
           height: "100vh",
           attachment: "fixed",
-
           background:
             "url(https://i.pinimg.com/originals/3c/99/42/3c9942c9fc50cee248a6fc6510f536fe.png) center / cover",
         }}
