@@ -2,12 +2,34 @@ import React from "react";
 import { Grid, Cell } from "react-mdl";
 
 class Contact extends React.Component {
+  // Form state
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
       status: "",
     };
+  }
+
+  // On form submit and it also allows user to send email once and if the navigate to another page after submission then it resets
+
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
   }
   render() {
     const { status } = this.state;
@@ -92,9 +114,7 @@ class Contact extends React.Component {
                     </button>
                   )}
                   {status === "ERROR" && (
-                    <p className="d-inline err-msg">
-                      Ooops! There was an error.
-                    </p>
+                    <p className="err-msg">Ooops! There was an error.</p>
                   )}
                 </div>
               </div>
@@ -103,25 +123,6 @@ class Contact extends React.Component {
         </Grid>
       </div>
     );
-  }
-
-  submitForm(ev) {
-    ev.preventDefault();
-    const form = ev.target;
-    const data = new FormData(form);
-    const xhr = new XMLHttpRequest();
-    xhr.open(form.method, form.action);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        form.reset();
-        this.setState({ status: "SUCCESS" });
-      } else {
-        this.setState({ status: "ERROR" });
-      }
-    };
-    xhr.send(data);
   }
 }
 
