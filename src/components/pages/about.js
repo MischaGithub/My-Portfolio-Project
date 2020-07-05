@@ -12,18 +12,22 @@ class About extends Component {
             <img
               src={about_mischa}
               alt="avatar"
-              style={{ minWidth: "280px", height: "280px" }}
+              style={{ minWidth: "280px", height: "230px" }}
             />
             <p
               style={{
                 width: "50%",
                 margin: "auto",
                 paddingTop: "1em",
-                fontSize: "1.2em",
+                fontSize: "0.8em",
               }}
             >
-              I strive to do the best at everything I do. Life has given me many
-              trials and I've always learnt how be strong and optimistic.
+              I am a determined, passionate and a hardworking individual. I am
+              always striving to do my best in everything I do. I am driven each
+              and everyday to become better than i was yesterday. Whatever
+              obstacles may come I tackle them head on, fear does not scare me
+              it motivates me more to come out of my comfort zone. I aspire to
+              be great and lead the Teachnology World from the front foot.
               LifeChoices Profile{" "}
               <a
                 href="https://drive.google.com/drive/folders/14REP-wA8f1k1QC_qlOAzleqPu9zwVTnl"
@@ -37,7 +41,7 @@ class About extends Component {
           <Cell col={6}>
             <p
               style={{
-                fontSize: "2em",
+                fontSize: "1.5em",
                 fontWeight: "bolder",
                 color: "#111",
               }}
@@ -102,7 +106,7 @@ class About extends Component {
             </p>
             <p
               style={{
-                fontSize: "2em",
+                fontSize: "1.5em",
                 fontWeight: "bolder",
                 color: "#111",
               }}
