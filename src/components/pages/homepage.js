@@ -8,11 +8,11 @@ class Homepage extends Component {
         <Cell col={12}>
           <div className="portfolio-image">
             {/* Card 1 React Project #1*/}
-            <Card shadow={5} style={{ minWidth: "1080px", margin: "1.5em" }}>
+            <Card shadow={5} style={{ minWidth: "980px", margin: "1.5em" }}>
               <CardTitle
                 style={{
                   color: "#000",
-                  height: "380px",
+                  height: "350px",
                   background:
                     "url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png) center / cover",
                 }}
