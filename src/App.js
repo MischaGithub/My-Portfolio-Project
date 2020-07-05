@@ -16,11 +16,11 @@ class App extends Component {
           attachment: "fixed",
 
           background:
-            "url(https://i.pinimg.com/originals/69/20/fa/6920fa5022612948f51c7d9f12ef6f3c.jpg) center / cover",
+            "url(https://i.pinimg.com/originals/3c/99/42/3c9942c9fc50cee248a6fc6510f536fe.png) center / cover",
         }}
       >
         <Layout>
-          <Header className="nav-color" title="My Portfolio" scroll>
+          <Header transparent title="My Portfolio" scroll>
             <Navigation>
               <Link to="/My-Portfolio-Project">Home</Link>
               <Link to="/My-Portfolio-Project/projects">Projects</Link>

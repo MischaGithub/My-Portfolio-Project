@@ -1,4 +1,4 @@
-import React, { Redirect } from "react";
+import React from "react";
 import { Grid, Cell } from "react-mdl";
 
 class Contact extends React.Component {
