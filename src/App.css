@@ -1,17 +1,3 @@
-.nav-color {
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .layout-background {
   background: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -28,30 +14,69 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* temp media query */
+@media screen and (max-width: 1080px) {
+  .landing-box {
+    max-width: 600px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .landing-box {
+    min-width: 600px;
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .testimonal-cards {
+    min-width: 430px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .testimonal-cards {
+    min-width: none;
+    max-width: 430px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .project-cards {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .project-cards {
+    min-width: none;
+    max-width: 430px;
+  }
+}
+
 .projects-grid {
   display: flex;
-  margin-top: 2em;
-  border-top: 1px solid #eee;
+  justify-content: center;
+  margin: 2em auto;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .projects-body {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-left: 0em;
   border-top: 1px solid #eee;
   background: transparent;
   width: 100%;
   height: 100%;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .testimonal-grid {
   display: flex;
-  margin-top: 2em;
-  margin-left: 0em;
+  justify-content: center;
+  margin: 2em auto;
   border-top: 1px solid #eee;
   flex-direction: row;
   flex-wrap: wrap;

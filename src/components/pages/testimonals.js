@@ -5,12 +5,10 @@ import { Card, CardTitle, CardText } from "react-mdl";
 class Testimonals extends Component {
   render() {
     return (
-      // React Projects Tab
-
-      <div className="testimonal-grid">
+      <div className="testimonal-grid ">
         {/* Card 1 Ariya Testimonal*/}
 
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} className="testimonal-cards" style={{ margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -38,7 +36,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 2 Aaqiel Behardien */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} className="testimonal-cards" style={{ margin: "2em" }}>
           <CardTitle
             style={{
               color: "#111",
@@ -65,7 +63,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 3 Hishaam De Vries */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} className="testimonal-cards" style={{ margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -93,7 +91,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 4 Damon Anthony */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} className="testimonal-cards" style={{ margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -118,7 +116,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 5 Viata Fredricks */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} className="testimonal-cards" style={{ margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
