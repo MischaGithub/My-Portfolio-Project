@@ -8,7 +8,7 @@ class Homepage extends Component {
         <Cell col={12}>
           <div className="portfolio-image">
             {/* Card 1 React Project #1*/}
-            <Card shadow={5} style={{ minWidth: "980px", margin: "1.5em" }}>
+            <Card shadow={5} style={{ minWidth: "500px", margin: "1.5em" }}>
               <CardTitle
                 style={{
                   color: "#000",

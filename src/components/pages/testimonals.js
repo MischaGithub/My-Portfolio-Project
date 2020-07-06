@@ -6,8 +6,10 @@ class Testimonals extends Component {
   render() {
     return (
       // React Projects Tab
+
       <div className="testimonal-grid">
         {/* Card 1 Ariya Testimonal*/}
+
         <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
