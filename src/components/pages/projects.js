@@ -6,11 +6,11 @@ class Projects extends Component {
     return (
       <div className="projects-grid">
         {/* Card 1 React Project #1*/}
-        <Card shadow={5} style={{ minWidth: "390px", margin: "3em" }}>
+        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
               color: "#000",
-              height: "420px",
+              height: "400px",
               background:
                 "url(https://i.pinimg.com/originals/8f/da/4b/8fda4ba42cdc0ce3c6c85832bb076d02.jpg) center / cover",
             }}
@@ -43,11 +43,11 @@ class Projects extends Component {
         </Card>
 
         {/* Card 2 React Project #2 */}
-        <Card shadow={5} style={{ minWidth: "390px", margin: "3em" }}>
+        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
               color: "#000",
-              height: "420px",
+              height: "400px",
               background:
                 "url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/201-512.png) center / cover",
             }}
@@ -80,11 +80,11 @@ class Projects extends Component {
         </Card>
 
         {/* Card 3 React Project #3 */}
-        <Card shadow={5} style={{ minWidth: "390px", margin: "3em" }}>
+        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
               color: "#000",
-              height: "420px",
+              height: "400px",
               background:
                 "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0Ljs-_14R0TpjjqmYj7Sqnnmu_Gi19z9K6w&usqp=CAU) center / cover",
             }}
@@ -117,11 +117,11 @@ class Projects extends Component {
         </Card>
 
         {/* Card 1 Python Project #1*/}
-        <Card shadow={5} style={{ minWidth: "390px", margin: "3em" }}>
+        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
               color: "#000",
-              height: "420px",
+              height: "400px",
               background:
                 "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIRtTHoo3u9yOySxuq3_DMoSA0qeAOwEvUzA&usqp=CAU) center / cover",
             }}
@@ -146,11 +146,11 @@ class Projects extends Component {
         </Card>
 
         {/* Card 2 Python Project #2*/}
-        <Card shadow={5} style={{ minWidth: "390px", margin: "3em" }}>
+        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
           <CardTitle
             style={{
               color: "#000",
-              height: "420px",
+              height: "400px",
               background:
                 "url(https://i7.pngguru.com/preview/517/876/849/purple-symbol-brand-violet-time-machine.jpg) center / cover",
             }}

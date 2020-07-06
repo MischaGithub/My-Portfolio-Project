@@ -5,20 +5,20 @@ import about_mischa from "../assets/Mischa_about2.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="about-body">
+      <div className="about-body ">
         <Grid className="about-grid">
           <Cell col={6}>
             <h2>Mischa Achmat</h2>
             <img
               src={about_mischa}
               alt="avatar"
-              style={{ minWidth: "280px", height: "200px" }}
+              style={{ minWidth: "320px", height: "300px" }}
             />
             <p
               style={{
                 marginTop: "1em",
                 paddingTop: "1em",
-                fontSize: "0.8em",
+                fontSize: "1em",
               }}
             >
               I am a determined, passionate and a hardworking individual. I am
