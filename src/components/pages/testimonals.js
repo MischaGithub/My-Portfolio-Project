@@ -19,7 +19,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Ariya Lucas
+            Ariya Lucas - Lecturer
           </CardTitle>
           <CardText
             style={{
@@ -48,7 +48,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Aaqiel Behardien
+            Aaqiel Behardien - Peer
           </CardTitle>
           <CardText
             style={{
@@ -74,7 +74,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Hishaam De Vries
+            Hishaam De Vries - Peer
           </CardTitle>
           <CardText
             style={{
@@ -102,7 +102,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Damon Anthony
+            Damon Anthony - Peer
           </CardTitle>
           <CardText
             style={{
@@ -127,7 +127,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Viata Fredricks
+            Viata Fredricks - Peer
           </CardTitle>
           <CardText
             style={{
