@@ -10,7 +10,7 @@ class Testimonals extends Component {
       <div className="testimonal-grid">
         {/* Card 1 Ariya Testimonal*/}
 
-        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
+        <Card shadow={5} style={{ minWidth: "410px", margin: "3em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -38,7 +38,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 2 Aaqiel Behardien */}
-        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
+        <Card shadow={5} style={{ minWidth: "410px", margin: "3em" }}>
           <CardTitle
             style={{
               color: "#111",
@@ -65,7 +65,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 3 Hishaam De Vries */}
-        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
+        <Card shadow={5} style={{ minWidth: "410px", margin: "3em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -93,7 +93,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 4 Damon Anthony */}
-        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
+        <Card shadow={5} style={{ minWidth: "410px", margin: "3em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -118,7 +118,7 @@ class Testimonals extends Component {
         </Card>
 
         {/* Card 5 Viata Fredricks */}
-        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
+        <Card shadow={5} style={{ minWidth: "410px", margin: "3em" }}>
           <CardTitle
             style={{
               color: "#000",
