@@ -97,14 +97,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <div className="social-links">
-                {/* Live Demo */}
-                <a
-                  href="https://morning-shelf-16921.herokuapp.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-desktop" aria-hidden="true" />
-                </a>
                 {/* Github */}
                 <a
                   href="https://github.com/MischaGithub/IT-LOGGER-PROJECT-3"

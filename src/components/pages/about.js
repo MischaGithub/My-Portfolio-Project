@@ -23,7 +23,7 @@ class About extends Component {
             >
               I am a determined, passionate and a hardworking individual. I am
               always striving to do my best in everything I do. I am driven each
-              and everyday to become better than i was yesterday. Whatever
+              and everyday to become better than I was yesterday. Whatever
               obstacles may come I tackle them head on, fear does not scare me
               it motivates me more to come out of my comfort zone. LifeChoices
               Profile{" "}
