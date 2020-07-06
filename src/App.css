@@ -70,7 +70,8 @@
 }
 
 .about-body {
-  margin: auto;
+  display: flex;
+  margin-top: 2em;
   border-top: 1px solid #eee;
   background: transparent;
   position: fixed;
