@@ -7,7 +7,7 @@ class Projects extends Component {
       // The layout for the projects category having it as Tabs
       <div className="projects-grid">
         {/* Card 1 React Project #1*/}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -44,7 +44,7 @@ class Projects extends Component {
         </Card>
 
         {/* Card 2 React Project #2 */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -81,7 +81,7 @@ class Projects extends Component {
         </Card>
 
         {/* Card 3 React Project #3 */}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -118,7 +118,7 @@ class Projects extends Component {
         </Card>
 
         {/* Card 1 Python Project #1*/}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",
@@ -147,7 +147,7 @@ class Projects extends Component {
         </Card>
 
         {/* Card 2 Python Project #2*/}
-        <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
+        <Card shadow={5} style={{ minWidth: "430px", margin: "2em" }}>
           <CardTitle
             style={{
               color: "#000",

@@ -4,15 +4,15 @@ import { Grid, Cell, Card, CardTitle, CardText, CardActions } from "react-mdl";
 class Homepage extends Component {
   render() {
     return (
-      <Grid>
-        <Cell col={12}>
-          <div className="portfolio-image">
+      <div className="portfolio-image">
+        <Grid>
+          <Cell col={12}>
             {/* Card 1 React Project #1*/}
-            <Card shadow={5} style={{ minWidth: "500px", margin: "1.5em" }}>
+            <Card shadow={5} style={{ minWidth: "450px", margin: "1.5em" }}>
               <CardTitle
                 style={{
                   color: "#000",
-                  height: "350px",
+                  height: "300px",
                   background:
                     "url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png) center / cover",
                 }}
@@ -57,9 +57,9 @@ class Homepage extends Component {
                 </div>
               </CardActions>
             </Card>
-          </div>
-        </Cell>
-      </Grid>
+          </Cell>
+        </Grid>
+      </div>
     );
   }
 }
