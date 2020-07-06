@@ -12,7 +12,7 @@ class About extends Component {
             <img
               src={about_mischa}
               alt="avatar"
-              style={{ minWidth: "320px", height: "300px" }}
+              style={{ minWidth: "300px", height: "300px" }}
             />
             <p
               style={{
@@ -35,6 +35,36 @@ class About extends Component {
                 View
               </a>
             </p>
+          </Cell>
+          <Cell col={6}>
+            <h2>Skills</h2>
+            <p>PYTHON</p>
+            <div class="container">
+              <div class="skills python">90%</div>
+            </div>
+            <p>MySQL</p>
+            <div class="container">
+              <div class="skills mysql">80%</div>
+            </div>
+            <p>HTML</p>
+            <div class="container">
+              <div class="skills html">80%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+              <div class="skills css">70%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+              <div class="skills js">70%</div>
+            </div>
+
+            <p>React</p>
+            <div class="container">
+              <div class="skills react">70%</div>
+            </div>
           </Cell>
         </Grid>
       </div>
