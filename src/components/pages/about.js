@@ -39,31 +39,31 @@ class About extends Component {
           <Cell col={6}>
             <h2>Skills</h2>
             <p>PYTHON</p>
-            <div class="container">
-              <div class="skills python">90%</div>
+            <div className="container">
+              <div className="skills python">90%</div>
             </div>
             <p>MySQL</p>
-            <div class="container">
-              <div class="skills mysql">80%</div>
+            <div className="container">
+              <div className="skills mysql">80%</div>
             </div>
             <p>HTML</p>
-            <div class="container">
-              <div class="skills html">80%</div>
+            <div className="container">
+              <div className="skills html">80%</div>
             </div>
 
             <p>CSS</p>
-            <div class="container">
-              <div class="skills css">70%</div>
+            <div className="container">
+              <div className="skills css">70%</div>
             </div>
 
             <p>JavaScript</p>
-            <div class="container">
-              <div class="skills js">70%</div>
+            <div className="container">
+              <div className="skills js">70%</div>
             </div>
 
             <p>React</p>
-            <div class="container">
-              <div class="skills react">70%</div>
+            <div className="container">
+              <div className="skills react">70%</div>
             </div>
           </Cell>
         </Grid>
