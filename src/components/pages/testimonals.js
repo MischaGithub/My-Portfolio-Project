@@ -72,21 +72,19 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Hishaam De Vries - Peer
+            Lukhanyo Vakele - Peer
           </CardTitle>
           <CardText
             style={{
-              fontSize: "1em",
-              textTransform: "uppercase",
+              fontSize: "1.1em",
               color: "#111",
             }}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Mischa is an intelligent, hard working human. She is very dedicated
+            in always producing the best in her work. She is an excellent
+            problem solver who is always aiming to do things right rather than
+            fast. She is an easy person to work with and I have seen her display
+            a positive attitude towards her work.
           </CardText>
         </Card>
 
