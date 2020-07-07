@@ -84,7 +84,7 @@ class Testimonals extends Component {
             in always producing the best in her work. She is an excellent
             problem solver who is always aiming to do things right rather than
             fast. She is an easy person to work with and I have seen her display
-            a positive attitude towards her work.
+            a positive attitude towards her work. - Lukhanyo Vakele
           </CardText>
         </Card>
 
@@ -109,7 +109,8 @@ class Testimonals extends Component {
             Mischa is a hardworking and determined individual. She is a
             dedicated problem solver who stays focused on the task at hand. She
             has good communication skills and can work independently as well as
-            with others. Mischa will be an asset in the workplace.
+            with others. Mischa will be an asset in the workplace. - Damon
+            Anthony
           </CardText>
         </Card>
 
@@ -134,7 +135,8 @@ class Testimonals extends Component {
             Mischa is a passionate, assertive and hardworking individual. She's
             always willing to learn and isn't afraid to ask questions. Mischa is
             able to work well with others and puts in great efforts to achieve
-            her goals. I believe she will do well in the workplace.
+            her goals. I believe she will do well in the workplace. - Viata
+            Fredricks
           </CardText>
         </Card>
       </div>
