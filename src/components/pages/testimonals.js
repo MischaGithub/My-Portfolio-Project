@@ -17,21 +17,18 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Ariya Lucas - Lecturer
+            Godwin Dzvapatsva
           </CardTitle>
           <CardText
             style={{
-              fontSize: "1em",
-              textTransform: "uppercase",
+              fontSize: "1.1em",
               color: "#111",
             }}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Mischa is a strong-minded students and has the courage to stand up
+            to challenge constructively. Mischa communicates well when in doubt
+            with the mentor and I highly recommend her. Godwin Dzvapatsva (Head
+            of Curriculum and Learning)
           </CardText>
         </Card>
 
@@ -46,7 +43,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Aaqiel Behardien - Peer
+            Aaqiel Behardien
           </CardTitle>
           <CardText
             style={{
@@ -58,7 +55,7 @@ class Testimonals extends Component {
             have fun, then look no further. Mischa is a keen developer and is
             simply outstanding at everything she does and is always ready to
             assist those in need. But beware, she becomes a an unstoppable force
-            when chasing her goals. - Aaqiel Behardien (Developer and friend)
+            when chasing her goals. Aaqiel Behardien (Developer and friend)
           </CardText>
         </Card>
 
@@ -72,7 +69,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Lukhanyo Vakele - Peer
+            Lukhanyo Vakele
           </CardTitle>
           <CardText
             style={{
@@ -84,7 +81,7 @@ class Testimonals extends Component {
             in always producing the best in her work. She is an excellent
             problem solver who is always aiming to do things right rather than
             fast. She is an easy person to work with and I have seen her display
-            a positive attitude towards her work. - Lukhanyo Vakele
+            a positive attitude towards her work. Lukhanyo Vakele (Peer)
           </CardText>
         </Card>
 
@@ -98,7 +95,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Damon Anthony - Peer
+            Damon Anthony
           </CardTitle>
           <CardText
             style={{
@@ -109,8 +106,8 @@ class Testimonals extends Component {
             Mischa is a hardworking and determined individual. She is a
             dedicated problem solver who stays focused on the task at hand. She
             has good communication skills and can work independently as well as
-            with others. Mischa will be an asset in the workplace. - Damon
-            Anthony
+            with others. Mischa will be an asset in the workplace. Damon
+            Anthony(Peer)
           </CardText>
         </Card>
 
@@ -124,7 +121,7 @@ class Testimonals extends Component {
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
             }}
           >
-            Viata Fredricks - Peer
+            Viata Fredricks
           </CardTitle>
           <CardText
             style={{
@@ -135,8 +132,8 @@ class Testimonals extends Component {
             Mischa is a passionate, assertive and hardworking individual. She's
             always willing to learn and isn't afraid to ask questions. Mischa is
             able to work well with others and puts in great efforts to achieve
-            her goals. I believe she will do well in the workplace. - Viata
-            Fredricks
+            her goals. I believe she will do well in the workplace. Viata
+            Fredricks(Peer)
           </CardText>
         </Card>
       </div>
