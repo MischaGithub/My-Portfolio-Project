@@ -37,7 +37,6 @@ class Testimonals extends Component {
           <CardTitle
             style={{
               color: "#111",
-              fontWeight: "bold",
               height: "380px",
               background:
                 "url(https://static.vecteezy.com/system/resources/previews/000/148/181/original/testimonials-icon-set-vector.png) center / cover",
