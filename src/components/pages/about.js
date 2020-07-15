@@ -40,15 +40,15 @@ class About extends Component {
             <h2>Skills</h2>
             <p>PYTHON</p>
             <div className="container">
-              <div className="skills python">90%</div>
+              <div className="skills python">70%</div>
             </div>
             <p>MySQL</p>
             <div className="container">
-              <div className="skills mysql">80%</div>
+              <div className="skills mysql">70%</div>
             </div>
             <p>HTML</p>
             <div className="container">
-              <div className="skills html">80%</div>
+              <div className="skills html">70%</div>
             </div>
 
             <p>CSS</p>
