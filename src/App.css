@@ -176,8 +176,8 @@
 }
 
 .p {
-  font-size: 20px;
-  font-weight: "bold";
+  font-size: 17px;
+  font-weight: "bolder";
   text-transform: uppercase;
   color: #111;
 }
@@ -317,7 +317,7 @@ body {
 .home-container {
   margin: auto;
   max-width: 800px;
-  height: 1000px;
+  height: 850px;
   overflow: hidden;
   padding: 3rem 2rem;
 }
@@ -330,4 +330,8 @@ body {
   padding: 0rem 2rem;
   background-attachment: fixed;
   background-image: url(./components/assets/original_backgrond.png);
+}
+
+.landing-box {
+  background-color: white;
 }

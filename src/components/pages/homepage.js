@@ -6,7 +6,7 @@ class Homepage extends Component {
     return (
       <div className="home-container">
         <Grid>
-          <div className="landing-box" style={{ backgroundColor: "white" }}>
+          <div className="landing-box">
             <Cell col={12}>
               {/* Card 1 React Project #1*/}
 
@@ -33,9 +33,7 @@ class Homepage extends Component {
                   I am a determined, passionate and a hardworking individual. I
                   am always striving to do my best in everything I do. I am
                   driven each and everyday to become better than I was
-                  yesterday. Whatever obstacles may come I tackle them head on,
-                  fear does not scare me it motivates me more to come out of my
-                  comfort zone.
+                  yesterday.
                 </p>
               </CardText>
 
