@@ -39,6 +39,7 @@
 @media screen and (min-width: 1081px) {
   .home-container {
     min-width: 600px;
+    height: 1000px;
     max-width: none;
   }
 }
@@ -262,7 +263,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+
   line-height: 1.6;
   background-color: #fff;
   color: #333;
@@ -316,7 +317,7 @@ body {
 .home-container {
   margin: auto;
   max-width: 800px;
-  height: 800px;
+  height: 1000px;
   overflow: hidden;
   padding: 3rem 2rem;
 }
@@ -328,5 +329,5 @@ body {
   background-size: cover;
   padding: 0rem 2rem;
   background-attachment: fixed;
-  background-image: url(./components/assets/background_cover.jpg);
+  background-image: url(./components/assets/original_backgrond.png);
 }
