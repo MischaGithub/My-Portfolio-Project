@@ -20,21 +20,22 @@ class App extends Component {
         }}
       >
         <Layout>
-          <Header transparent title="My Portfolio" scroll>
+          <Header transparent title="Mischa Achmat" scroll>
             <Navigation>
               <Link to="/My-Portfolio-Project">Home</Link>
+              <Link to="/My-Portfolio-Project/about">About</Link>
               <Link to="/My-Portfolio-Project/projects">Projects</Link>
               <Link to="/My-Portfolio-Project/testimonals">Testimonials</Link>
-              <Link to="/My-Portfolio-Project/about">About</Link>
+
               <Link to="/My-Portfolio-Project/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer title="Mischa Achmat">
             <Navigation>
               <Link to="/My-Portfolio-Project">Home</Link>
+              <Link to="/My-Portfolio-Project/about">About</Link>
               <Link to="/My-Portfolio-Project/projects">Projects</Link>
               <Link to="/My-Portfolio-Project/testimonals">Testimonials</Link>
-              <Link to="/My-Portfolio-Project/about">About</Link>
               <Link to="/My-Portfolio-Project/contact">Contact</Link>
             </Navigation>
           </Drawer>
