@@ -10,15 +10,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div
-        style={{
-          height: "100vh",
-          width: "100vw",
-          attachment: "fixed",
-          background:
-            "url(https://i.pinimg.com/originals/3c/99/42/3c9942c9fc50cee248a6fc6510f536fe.png) center / cover",
-        }}
-      >
+      <div className="landing-container">
         <Layout>
           <Header transparent title="Mischa Achmat" scroll>
             <Navigation>
