@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, CardText, CardActions } from "react-mdl";
+import { Card, CardActions } from "react-mdl";
 
 import Project_Icon from "../assets/project_icons_2.jpg";
 
@@ -143,10 +143,9 @@ class Projects extends Component {
               <div>
                 <p style={{ fontWeight: "bolder" }}>Lottery System</p>
                 <p>
-                  The Lottery System was build to generate random lottery
-                  numbers. Once a user selects their 6 numbers it will match
-                  what the system kicks out and then match the numbers based on
-                  a prize category.
+                  The Lottery System is a just like any other lottery system a
+                  user selects their 6 numbers it will match what the system
+                  kicks out and match the numbers to a prize category.
                 </p>
               </div>
               <div className="social-links">
@@ -181,9 +180,8 @@ class Projects extends Component {
                 </p>
                 <p>
                   The Attendance Log for LifeChoices was created for keeping
-                  track of visitors and gives them the option to log in and
-                  register if they are new but also its use is for employees for
-                  daliy Attendance.
+                  track of both visitors and employees, with a log in and
+                  register option. With system logs for admin to view anytime.
                 </p>
               </div>
               <div className="social-links">
