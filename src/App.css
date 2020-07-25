@@ -72,6 +72,26 @@
   }
 }
 
+.project-cards {
+  height: 420px;
+  margin: 2em;
+}
+
+.project-heading {
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  overflow: hidden;
+}
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
 .projects-grid {
   display: flex;
   justify-content: center;
@@ -81,12 +101,11 @@
 }
 
 .projects-body {
-  margin-left: 0em;
-  border-top: 1px solid #eee;
+  margin: auto;
   background: transparent;
   width: 100%;
   height: 100%;
-  padding-top: 1em;
+  justify-content: center;
 }
 
 .testimonal-grid {
@@ -175,6 +194,12 @@
   justify-content: center;
 }
 
+.project-icon {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
 .p {
   font-size: 17px;
   font-weight: "bolder";
@@ -245,12 +270,12 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 .social-links i {
   color: #111;
-  font-size: 3em;
+  font-size: 2em;
   padding: 8px;
 }
 
@@ -309,9 +334,12 @@ body {
 
 .container {
   margin: auto;
-  background-color: white;
+  justify-content: center;
   overflow: hidden;
-  padding: 2rem 2rem;
+}
+
+.container h1 {
+  justify-content: center;
 }
 
 .home-container {
