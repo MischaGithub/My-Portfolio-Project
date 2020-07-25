@@ -1,15 +1,21 @@
 import React, { Component } from "react";
-import { Card, CardActions } from "react-mdl";
+import { Card, CardActions, Tab, Tabs } from "react-mdl";
 
 import Project_Icon from "../assets/project_icons_2.jpg";
 
 class Projects extends Component {
-  render() {
-    return (
-      <div className="projects-body">
-        <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>
-          My Projects
-        </h2>
+  constructor(props) {
+    super(props);
+    this.state = { activeTab: 0 };
+  }
+
+  // ToggleCategory
+  toggleCatergories() {
+    if (this.state.activeTab === 0) {
+      return (
+        // This is all the content for the React Projects done over course.
+        // I did implement the react-mdl tabs in order to avoid a long scroll on mobile.
+
         <div className="projects-container">
           {/* Card 1 React Project #1*/}
           <Card shadow={4} className="project-cards">
@@ -127,7 +133,13 @@ class Projects extends Component {
               </div>
             </CardActions>
           </Card>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        // This is My Python Projects done over the course.
 
+        <div className="projects-container">
           {/* Card 1 Python Project #1*/}
           <Card shadow={4} className="project-cards">
             <div>
@@ -196,6 +208,27 @@ class Projects extends Component {
               </div>
             </CardActions>
           </Card>
+        </div>
+      );
+    }
+  }
+
+  render() {
+    return (
+      // This the the body for the tabs with the tab heading and being able to navigate between the 2.
+      <div className="category-tabs">
+        <div className="projects-body">
+          <Tabs
+            activeTab={this.state.activeTab}
+            onChange={(tabId) => this.setState({ activeTab: tabId })}
+            ripple
+          >
+            <Tab>React</Tab>
+            <Tab>Python</Tab>
+          </Tabs>
+          <section>
+            <div className="content"> {this.toggleCatergories()}</div>
+          </section>
         </div>
       </div>
     );
