@@ -4,6 +4,7 @@ import { Card } from "react-mdl";
 
 import Godwin from "../assets/godwin-dzvapatsra.jpg";
 import Viata from "../assets/viata-fredricks.jpg";
+import Aaqiel from "../assets/aaqiel-behardien.jpg";
 
 class Testimonals extends Component {
   render() {
@@ -29,7 +30,7 @@ class Testimonals extends Component {
         {/* Card 2 Aaqiel Behardien */}
         <Card shadow={5} className="testimonal-cards">
           <div>
-            <img src={Godwin} alt="godwin" className="testimonal-icon" />
+            <img src={Aaqiel} alt="godwin" className="testimonal-icon" />
           </div>
           <p style={{ margin: "0.2rem auto", justifyContent: "center" }}>
             Aaqiel Behardien
