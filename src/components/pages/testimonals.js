@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { Card } from "react-mdl";
 
 import Godwin from "../assets/godwin-dzvapatsra.jpg";
+import Viata from "../assets/viata-fredricks.jpg";
 
 class Testimonals extends Component {
   render() {
@@ -79,7 +80,7 @@ class Testimonals extends Component {
         {/* Card 5 Viata Fredricks */}
         <Card shadow={5} className="testimonal-cards">
           <div>
-            <img src={Godwin} alt="godwin" className="testimonal-icon" />
+            <img src={Viata} alt="viata" className="testimonal-icon" />
           </div>
           <p style={{ margin: "0.2rem auto", justifyContent: "center" }}>
             Viata Fredricks
