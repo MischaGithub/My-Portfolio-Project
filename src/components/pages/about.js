@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about-container ">
         <Grid>
           <Cell col={6}>
-            <div className="aboutme-container">
+            <div className="aboutme1-container">
               <div className="about-grid">
                 <img src={about_mischa} alt="avatar" className="about-card" />
               </div>
@@ -22,22 +22,41 @@ class About extends Component {
               </p>
             </div>
 
-            {/* Hobbies */}
-            <div className="aboutme-container">
+            {/* Skills Bar */}
+            <div className="aboutme1-container">
+              <h4 style={{ textDecoration: "underline" }}>Skills</h4>
+              <p>JavaScript</p>
               <div>
-                <h4 style={{ textDecoration: "underline" }}>Hobbies</h4>
-                <ul>
-                  <li>Coding</li>
-                  <li>Listening to music</li>
-                  <li>Reading</li>
-                  <li>Swimming</li>
-                  <li>Meditate</li>
-                </ul>
+                <div className="skills js">70%</div>
+              </div>
+
+              <p>HTML</p>
+              <div>
+                <div className="skills html">70%</div>
+              </div>
+
+              <p>CSS</p>
+              <div>
+                <div className="skills css">60%</div>
+              </div>
+
+              <p>React</p>
+              <div>
+                <div className="skills react">70%</div>
+              </div>
+
+              <p>Python</p>
+              <div>
+                <div className="skills python">70%</div>
+              </div>
+
+              <p>MySQL</p>
+              <div>
+                <div className="skills mysql">60%</div>
               </div>
             </div>
-            {/* End of Hobbies */}
 
-            <div className="aboutme-container">
+            <div className="aboutme1-container">
               <h4 style={{ textDecoration: "underline" }}>Education</h4>
 
               {/* High School Information */}
@@ -46,8 +65,10 @@ class About extends Component {
                 <h6>Alexander Secondary High School</h6>
                 <ul>
                   Course:
-                  <li>Arts</li> Period:
-                  <li>2010-2011</li> Completed:
+                  <li>Math, Arts</li>
+                  Period:
+                  <li>2010-2011</li>
+                  Completed:
                   <li>Yes</li>
                 </ul>
               </div>
@@ -137,7 +158,22 @@ class About extends Component {
               {/* End of Shumani Infor */}
             </div>
 
+            {/* Hobbies */}
+            <div className="aboutme-container">
+              <div>
+                <h4 style={{ textDecoration: "underline" }}>Hobbies</h4>
+                <ul>
+                  <li>Coding</li>
+                  <li>Listening to music</li>
+                  <li>Reading</li>
+                  <li>Swimming</li>
+                  <li>Meditate</li>
+                </ul>
+              </div>
+            </div>
+            {/* End of Hobbies */}
             {/* Contact Info */}
+
             <div className="aboutme-container">
               <div>
                 <h4 style={{ textDecoration: "underline" }}>
@@ -153,6 +189,7 @@ class About extends Component {
                 </ul>
               </div>
             </div>
+            {/* End of Contact Info */}
           </Cell>
         </Grid>
       </div>
