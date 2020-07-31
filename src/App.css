@@ -148,15 +148,14 @@
 
 .about-container {
   margin: 2rem;
-  border: 2px solid #111;
   justify-content: center;
+  background-color: rgba(247, 244, 244, 0.5);
 }
 
 .aboutme-container {
   margin: 1rem auto;
   overflow: hidden;
   padding-left: 1rem;
-  border-left: 2px solid #111;
 }
 
 .aboutme-container li {
@@ -362,6 +361,8 @@
   text-align: right;
 }
 
+/* Social Links*/
+
 .social-links {
   display: flex;
   justify-content: space-between;
@@ -370,8 +371,31 @@
 .social-links i {
   color: #111;
   margin: auto;
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
+
+.project-social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-social-links i {
+  color: #111;
+  margin: auto;
+  font-size: 2rem;
+}
+
+/* End of Social Links*/
+
+/* Boxing */
+.work-box-1 {
+  margin: 2rem auto;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 8px;
+}
+
+/* End of boxing*/
 
 /* Make sure that padding behaves as expected */
 * {
@@ -387,11 +411,17 @@ body {
   color: #333;
 }
 
+/* Skills*/
+
 .skills {
   text-align: right; /* Right-align text */
   padding-top: 5px; /* Add top padding */
   padding-bottom: 5px; /* Add bottom padding */
   color: white; /* White text color */
+}
+
+.skill-spacing {
+  margin-bottom: 0.4rem;
 }
 
 .python {
@@ -425,6 +455,8 @@ body {
   background-color: #2196f3;
 }
 
+/* End of Skills*/
+
 .container {
   margin: auto;
   justify-content: center;
@@ -435,6 +467,7 @@ body {
   justify-content: center;
 }
 
+/* Home Container */
 .home-container {
   margin: auto;
   max-width: 800px;
@@ -443,12 +476,12 @@ body {
   padding: 3rem 2rem;
 }
 
+/* Landing Container */
 .landing-container {
   margin: auto;
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0rem 2rem;
   background-attachment: fixed;
   background-image: url(./components/assets/original_backgrond.png);
 }

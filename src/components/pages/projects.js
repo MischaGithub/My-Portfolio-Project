@@ -38,14 +38,14 @@ class Projects extends Component {
                   more you can view a more detailed profile of the user.
                 </p>
               </div>
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Live Demo */}
                 <a
                   href="https://mischa-github-finder.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-desktop" aria-hidden="true" />
+                  Live Demo
                 </a>
                 {/* Github */}
                 <a
@@ -53,7 +53,7 @@ class Projects extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>
@@ -79,14 +79,14 @@ class Projects extends Component {
                   delete and edit their contacts.
                 </p>
               </div>
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Live Demo */}
                 <a
                   href="https://morning-shelf-16921.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-desktop" aria-hidden="true" />
+                  Live Demo
                 </a>
                 {/* Github */}
                 <a
@@ -94,7 +94,7 @@ class Projects extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>
@@ -121,14 +121,14 @@ class Projects extends Component {
                   what problem is. Also add a Tech to the system
                 </p>
               </div>
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Github */}
                 <a
                   href="https://github.com/MischaGithub/IT-LOGGER-PROJECT-3"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>
@@ -157,14 +157,14 @@ class Projects extends Component {
                 </p>
               </div>
 
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Live Demo */}
                 <a
                   href="https://calm-ridge-98144.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-desktop" aria-hidden="true" />
+                  Live Demo
                 </a>
                 {/* Github */}
                 <a
@@ -172,7 +172,7 @@ class Projects extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>
@@ -204,14 +204,14 @@ class Projects extends Component {
                   kicks out and match the numbers to a prize category.
                 </p>
               </div>
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Github */}
                 <a
                   href="https://github.com/MischaGithub/Python-project"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>
@@ -240,14 +240,14 @@ class Projects extends Component {
                   register option. With system logs for admin to view anytime.
                 </p>
               </div>
-              <div className="social-links">
+              <div className="project-social-links">
                 {/* Github */}
                 <a
                   href="https://github.com/MischaGithub/LIFECHOICE-PROJECTS"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  Github
                 </a>
               </div>
             </CardActions>

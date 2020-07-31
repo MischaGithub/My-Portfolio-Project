@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about-container ">
         <Grid>
           <Cell col={6}>
-            <div className="aboutme1-container">
+            <div className="aboutme1-container work-box-1">
               <div className="about-grid">
                 <img src={about_mischa} alt="avatar" className="about-card" />
               </div>
@@ -22,41 +22,78 @@ class About extends Component {
               </p>
             </div>
 
-            {/* Skills Bar */}
-            <div className="aboutme1-container">
-              <h4 style={{ textDecoration: "underline" }}>Skills</h4>
-              <p>JavaScript</p>
+            {/* Contact Info */}
+
+            <div className="aboutme-container work-box-1 ">
               <div>
+                <h4 style={{ textDecoration: "underline" }}>
+                  Contact Information
+                </h4>
+                <ul>
+                  Address:
+                  <li>150 Koodoo Street, Kewtown, ATHLONE 7764</li>
+                  Email:
+                  <li>mischa.achmat120212@gmail.com</li>
+                  Contact Number:
+                  <li>068 566 3319</li>
+                </ul>
+              </div>
+            </div>
+            {/* End of Contact Info */}
+
+            {/* Hobbies */}
+            <div className="aboutme-container work-box-1">
+              <div>
+                <h4 style={{ textDecoration: "underline" }}>Hobbies</h4>
+                <ul>
+                  <li>Coding</li>
+                  <li>Listening to music</li>
+                  <li>Reading</li>
+                  <li>Swimming</li>
+                  <li>Meditate</li>
+                </ul>
+              </div>
+            </div>
+            {/* End of Hobbies */}
+
+            {/* Skills Bar */}
+            <div className="aboutme1-container work-box-1">
+              <h4 style={{ textDecoration: "underline", marginBottom: "2rem" }}>
+                Skills
+              </h4>
+              <p>JavaScript</p>
+              <div className="skill-spacing">
                 <div className="skills js">70%</div>
               </div>
 
               <p>HTML</p>
-              <div>
+              <div className="skill-spacing">
                 <div className="skills html">70%</div>
               </div>
 
               <p>CSS</p>
-              <div>
+              <div className="skill-spacing">
                 <div className="skills css">60%</div>
               </div>
 
               <p>React</p>
-              <div>
+              <div className="skill-spacing">
                 <div className="skills react">70%</div>
               </div>
 
               <p>Python</p>
-              <div>
+              <div className="skill-spacing">
                 <div className="skills python">70%</div>
               </div>
 
               <p>MySQL</p>
-              <div>
+              <div className="skill-spacing">
                 <div className="skills mysql">60%</div>
               </div>
             </div>
-
-            <div className="aboutme1-container">
+          </Cell>
+          <Cell col={6}>
+            <div className="aboutme1-container work-box-1">
               <h4 style={{ textDecoration: "underline" }}>Education</h4>
 
               {/* High School Information */}
@@ -89,29 +126,30 @@ class About extends Component {
 
               {/* End of College Info */}
             </div>
-          </Cell>
-          <Cell col={6}>
             {/* Work Experience */}
-            <div className="aboutme-container">
+            <div className="aboutme-container work-box-1">
               <h4 style={{ textDecoration: "underline" }}>Work Experience</h4>
-              {/* Hamleys Work Info */}
+
+              {/* Shumani Work Info */}
 
               <div>
-                <h6>Hamleys</h6>
+                <h6>Shumani RSA</h6>
                 <ul>
                   Period:
-                  <li>2015-2016</li>
+                  <li>2019-2020</li>
                   Role:
-                  <li>Sales Advisor</li>
+                  <li>Table Hand</li>
                   Duties:
-                  <li>Perform till duties</li>
-                  <li>Stock intake and checking out stock</li>
-                  <li>Managing staff in the stock room on a daily basis</li>
-                  <li>Advising on products</li>
+                  <li>
+                    Assisting by the Kolbus creating books on a daily basis
+                  </li>
+                  <li>Folding by the table</li>
+                  <li>Assisting by the Saddle stitcher on a daily basis</li>
+                  <li>Packaging products</li>
                 </ul>
               </div>
 
-              {/* End of Hamleys Info */}
+              {/* End of Shumani Infor */}
 
               {/* Archive Work Info */}
 
@@ -136,60 +174,25 @@ class About extends Component {
 
               {/*End of Archive Info */}
 
-              {/* Shumani Work Info */}
+              {/* Hamleys Work Info */}
 
               <div>
-                <h6>Shumani RSA</h6>
+                <h6>Hamleys</h6>
                 <ul>
                   Period:
-                  <li>2019-2020</li>
+                  <li>2015-2016</li>
                   Role:
-                  <li>Table Hand</li>
+                  <li>Sales Advisor</li>
                   Duties:
-                  <li>
-                    Assisting by the Kolbus creating books on a daily basis
-                  </li>
-                  <li>Folding by the table</li>
-                  <li>Assisting by the Saddle stitcher on a daily basis</li>
-                  <li>Packaging products</li>
+                  <li>Perform till duties</li>
+                  <li>Stock intake and checking out stock</li>
+                  <li>Managing staff in the stock room on a daily basis</li>
+                  <li>Advising on products</li>
                 </ul>
               </div>
 
-              {/* End of Shumani Infor */}
+              {/* End of Hamleys Info */}
             </div>
-
-            {/* Hobbies */}
-            <div className="aboutme-container">
-              <div>
-                <h4 style={{ textDecoration: "underline" }}>Hobbies</h4>
-                <ul>
-                  <li>Coding</li>
-                  <li>Listening to music</li>
-                  <li>Reading</li>
-                  <li>Swimming</li>
-                  <li>Meditate</li>
-                </ul>
-              </div>
-            </div>
-            {/* End of Hobbies */}
-            {/* Contact Info */}
-
-            <div className="aboutme-container">
-              <div>
-                <h4 style={{ textDecoration: "underline" }}>
-                  Contact Information
-                </h4>
-                <ul>
-                  Address:
-                  <li>150 Koodoo Street, Kewtown, ATHLONE 7764</li>
-                  Email:
-                  <li>mischa.achmat120212@gmail.com</li>
-                  Contact Number:
-                  <li>068 566 3319</li>
-                </ul>
-              </div>
-            </div>
-            {/* End of Contact Info */}
           </Cell>
         </Grid>
       </div>
