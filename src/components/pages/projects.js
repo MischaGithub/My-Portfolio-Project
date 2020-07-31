@@ -133,6 +133,50 @@ class Projects extends Component {
               </div>
             </CardActions>
           </Card>
+
+          {/* Card 3 React Project #4 */}
+          <Card shadow={4} className="project-cards">
+            <div>
+              <img
+                src={Project_Icon}
+                alt="projects_icon"
+                className="project-icon"
+              />
+            </div>
+            <p style={{ fontSize: "20px" }}>React Project #4</p>
+
+            <CardActions border>
+              <div>
+                <p style={{ fontWeight: "bolder" }}>Vibe</p>
+                <p>
+                  {" "}
+                  Vibe is my end of module JS project. It is a review site where
+                  people can find a restaurant based on the category they
+                  looking for and it will filter back all the info about the
+                  business.
+                </p>
+              </div>
+
+              <div className="social-links">
+                {/* Live Demo */}
+                <a
+                  href="https://calm-ridge-98144.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-desktop" aria-hidden="true" />
+                </a>
+                {/* Github */}
+                <a
+                  href="https://github.com/MischaGithub/Vibe-"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+              </div>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
