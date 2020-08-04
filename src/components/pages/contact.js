@@ -40,20 +40,6 @@ class Contact extends React.Component {
         </h1>
 
         <Grid className="contact-grid">
-          <div className="contact-info">
-            <p className="contact-tags">
-              <i class="fa fa-map-marker" aria-hidden="true" /> 150 Koodoo
-              Street Kewtown, Athlone 7764
-            </p>
-            <p className="contact-tags">
-              <i class="fa fa-phone-square" aria-hidden="true" />
-              068 566 3319
-            </p>
-            <p className="contact-tags">
-              <i class="fa fa-envelope" aria-hidden="true" />
-              mischa.achmat120212@gmail.com
-            </p>
-          </div>
           <Cell col={10}>
             <form
               onSubmit={this.submitForm}
@@ -135,6 +121,20 @@ class Contact extends React.Component {
               </div>
             </form>
           </Cell>
+          <div className="contact-info">
+            <p className="contact-tags">
+              <i class="fa fa-map-marker" aria-hidden="true" /> 150 Koodoo
+              Street Kewtown, Athlone 7764
+            </p>
+            <p className="contact-tags">
+              <i class="fa fa-phone-square" aria-hidden="true" />
+              068 566 3319
+            </p>
+            <p className="contact-tags">
+              <i class="fa fa-envelope" aria-hidden="true" />
+              mischa.achmat120212@gmail.com
+            </p>
+          </div>
         </Grid>
       </div>
     );
