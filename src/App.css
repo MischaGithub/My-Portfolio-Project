@@ -285,14 +285,15 @@
   margin: 2rem auto;
   overflow: hidden;
   border: 2px solid;
-  padding: 8px;
+  padding: 5px;
   box-shadow: 5px;
   background-color: #fff;
 }
 
 .contact-tags {
   margin: 1rem;
-  font-size: 15px;
+  font-size: 10.5px;
+  font-weight: bold;
 }
 
 .contact-tags i {
