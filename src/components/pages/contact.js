@@ -36,9 +36,24 @@ class Contact extends React.Component {
     return (
       <div className="contact-body">
         <h1 style={{ textAlign: "center", fontWeight: "bolder" }}>
-          Let's Talk{" "}
+          Let's Talk
         </h1>
+
         <Grid className="contact-grid">
+          <div className="contact-info">
+            <p className="contact-tags">
+              <i class="fa fa-map-marker" aria-hidden="true" /> 150 Koodoo
+              Street Kewtown, Athlone 7764
+            </p>
+            <p className="contact-tags">
+              <i class="fa fa-phone-square" aria-hidden="true" />
+              068 566 3319
+            </p>
+            <p className="contact-tags">
+              <i class="fa fa-envelope" aria-hidden="true" />
+              mischa.achmat120212@gmail.com
+            </p>
+          </div>
           <Cell col={10}>
             <form
               onSubmit={this.submitForm}

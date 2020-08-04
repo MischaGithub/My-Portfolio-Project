@@ -101,7 +101,7 @@
 }
 
 .projects-body {
-  margin: auto;
+  margin: 1.5rem auto;
   background: transparent;
   width: 100%;
   height: 100%;
@@ -124,7 +124,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 1rem auto;
+  margin: 3rem auto;
   overflow: hidden;
 }
 
@@ -147,13 +147,13 @@
 }
 
 .about-container {
-  margin: 2rem;
+  margin: auto;
   justify-content: center;
-  background-color: rgba(247, 244, 244, 0.5);
+  padding-top: 3rem;
 }
 
 .aboutme-container {
-  margin: 1rem auto;
+  margin: auto;
   overflow: hidden;
   padding-left: 1rem;
 }
@@ -188,7 +188,7 @@
 }
 
 .aboutme1-container {
-  margin: 1rem auto;
+  margin: auto;
   overflow: hidden;
   padding-left: 1rem;
 }
@@ -278,6 +278,27 @@
   color: #111;
   border: 2px;
   margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  overflow: hidden;
+  border: 2px solid;
+  padding: 8px;
+  box-shadow: 5px;
+  background-color: #fff;
+}
+
+.contact-tags {
+  margin: 1rem;
+  font-size: 15px;
+}
+
+.contact-tags i {
+  margin: 0.5rem;
 }
 
 .portfolio-image {
@@ -392,7 +413,7 @@
   margin: 2rem auto;
   border: 1px solid;
   padding: 8px;
-  box-shadow: 5px 8px;
+  box-shadow: 5px;
 }
 
 /* End of boxing*/
@@ -479,7 +500,7 @@ body {
 /* Landing Container */
 .landing-container {
   margin: auto;
-  height: 700px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
