@@ -81,15 +81,14 @@
   margin: auto;
   justify-content: center;
   background-color: white;
-  overflow: hidden;
 }
+
 .projects-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 1rem auto;
-  overflow: hidden;
 }
 
 .projects-grid {
@@ -125,7 +124,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 3rem auto;
-  overflow: hidden;
 }
 
 .testimonal-body {
@@ -154,7 +152,7 @@
 
 .aboutme-container {
   margin: auto;
-  overflow: hidden;
+
   padding-left: 1rem;
 }
 
@@ -189,7 +187,6 @@
 
 .aboutme1-container {
   margin: auto;
-  overflow: hidden;
   padding-left: 1rem;
 }
 
@@ -283,7 +280,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 2rem auto;
-  overflow: hidden;
   padding: 5px;
   box-shadow: 5px;
   background-color: #fff;
@@ -479,7 +475,6 @@ body {
 .container {
   margin: auto;
   justify-content: center;
-  overflow: hidden;
 }
 
 .container h1 {
@@ -491,7 +486,7 @@ body {
   margin: auto;
   max-width: 800px;
   height: 850px;
-  overflow: hidden;
+
   padding: 3rem 2rem;
 }
 
